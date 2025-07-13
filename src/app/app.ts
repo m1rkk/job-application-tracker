@@ -4,9 +4,9 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: './app.html',
+  template:`<router-outlet></router-outlet>`,
   standalone: true,
-  styleUrl: './app.scss'
+  styles:[]
 })
 export class App {
   protected title = 'job-application-tracker';

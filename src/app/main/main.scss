@@ -1,0 +1,16 @@
+#main-container{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 100vh;
+  width: 100%;
+  #app-positions{
+    margin-left: 4%;
+    margin-top: 12%;
+  }
+  #app-applicants-list{
+    margin-top: 10%;
+    margin-left: 4%;
+    width: 85%;
+  }
+}
